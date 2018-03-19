@@ -1,0 +1,186 @@
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(../fonts/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: Roboto-Light;
+  src:url(../fonts/Roboto-Light.ttf);
+}
+@font-face {
+  font-family: Roboto-Regular;
+  src:url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: Roboto-Thin;
+  src:url(../fonts/Roboto-Thin.ttf);
+}
+html{
+  font-size: 10px;
+}
+body{
+  font-family: Roboto-Bold, Arial, sans-serif;
+  color: #ffffff;
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+body *{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.banner_img{
+  background-image: url(../images/EuropeBrandenburg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+.banner_colorBackground{
+  background: rgba(42,77,135,0.8);
+  height: 100vh;
+}
+.wrapper{
+  padding:130px 145px;
+}
+h1{
+  float: left;
+  font-size: 7rem;
+}
+.emigration{
+  width: 890px;
+  color: #f0e353;
+  text-align: left;
+  line-height: 1.05em;
+}
+.questions{
+  font-family: Roboto-Light , Arial ,sans-serif;
+  font-size: 3.6rem;
+  float: left;
+  padding: 5px 3px;
+}
+.date{
+  float: left;
+  font-family:Roboto-Regular,Arial,sans-serif;
+  font-size: 6rem;
+  border-left: 8px solid #f0e353 ;
+  margin: 90px 5px;
+  padding-left: 12px;
+    .monthDay{
+      font-size: 5rem;
+    }
+    small{
+      font-family: Roboto-Light , Arial ,sans-serif;
+    }
+    .timeZone{
+       font-size: 3rem;
+     }
+}
+.table{
+  height: 425px;
+  width: 365px;
+  border: 2px solid #ffffff;
+  position: absolute;
+  right: 132px;
+  top:148px;
+  border-radius: 3px;
+}
+.counter{
+  font-size: 18rem;
+  padding-top: 30px;
+  font-family: Roboto-Thin,Arial,sans-serif;
+}
+.textCounter{
+  font-family: Roboto-Light , Arial , sans-serif;
+  font-size: 3.8rem;
+  padding-top: 50px;
+  line-height: 1em;
+}
+form{
+  clear: both;
+  margin-top: 30px;
+}
+.checkIn{
+  width: 787px;
+  height: 92px;
+  font-size: 5rem;
+  color: #F0E353;
+  border: 2px solid #F0E353;
+  border-radius: 3px;
+  background: none;
+  background-color: transparent;
+  transition: background-color 1s, color 2s;
+  cursor: pointer;
+}
+
+.checkIn:hover{
+  background: #F0E353;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.chekIn_Text{
+  font-size: 2.2rem;
+  font-family: Roboto-Thin, Arial, sans-serif;
+  padding-top: 30px;
+}
+
+.slideDown{
+  text-decoration: none;
+  color: #ffffff;
+  position: absolute;
+  padding: 30px 0;
+  bottom: 0;
+  left:47.5%;
+  font-size: 10rem;
+  transition: All 1s ease-out 0.5s;
+}
+.slideDown:hover{
+  transition: All 1s ease-out 0.5s;;
+  transform: translateY(50px);
+}
+
+.displayTwo{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.displayTwo_blockOne,.displayTwo_blockTwo{
+  background-color: #55719f;
+  border: 1px solid #ffffff;
+  height: 375px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.organizers{
+  font-family: Roboto-Regular, Arial, sans-serif;
+  font-size: 3.5rem;
+  text-align: left;
+  margin-left: 30px;
+}
+.organizers_text{
+  font-family: Roboto-Light , Arial , sans-serif;
+  font-size: 2.2rem;
+}
+.logoICDP{
+  margin-right: 0;
+}
+.logoZ{
+  margin-right: 0;
+  font-size: 10rem;
+  width: 120px;
+  font-family: Roboto-Bold, Arial, sans-serif;
+  font-weight: 900;
+  box-shadow:inset 0 0 0 8px rgb(255, 255, 255);
+  border-radius: 50%;
+  transform: rotate(-45deg);
+}
+.organizers_head{
+  border-bottom: 2px solid #ffffff;
+}
+
+@import "media";
